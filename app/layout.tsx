@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     default: "uxpays.com",
     template: "%s | uxpays.com",
   },
+  metadataBase: new URL('https://www.uxpays.netlify.app'), 
   description: "Co-founder of uxpays.com",
   openGraph: {
     title: "uxpays.com",
@@ -36,10 +37,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
   },
   icons: {
     shortcut: "/favicon.png",
