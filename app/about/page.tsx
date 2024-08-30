@@ -43,8 +43,8 @@ export default function About() {
       </div>
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
         <p className="mt-6 text-lg text-gray-400 hover:text-white text-center px-4 max-w-[600px] mx-auto">
-          A professional and intelligent designer always ready to tackle new
-          challenges and deliver top-notch results..
+          A professional and passionate designer always ready to tackle new
+          challenges and deliver top-notch results.
         </p>
       </div>
     </section>
