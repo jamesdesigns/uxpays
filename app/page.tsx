@@ -37,7 +37,7 @@ export default function Home() {
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
         <h2 className="text-md text-gray-400 hover:text-white max-w-[600px] mx-auto">
           I'm a UX/UI designer and developer,{" "}
-          specializing in intelligent design. Isn't it time you invest in your business? 
+          specializing in intelligent design. Isn't it time you invest in improving your business? 
         </h2>
         <a
           href="/contact"
