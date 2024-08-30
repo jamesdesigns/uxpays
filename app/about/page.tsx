@@ -8,11 +8,11 @@ import Particles from "../components/particles";
 export default function About() {
   // Array of image URLs
   const images = [
-    "/images/image1.jpg", // Replace with your image paths
-    "/images/image2.jpg",
-    "/images/image3.jpg",
-    "/images/image4.jpg",
-    "/images/image5.jpg",
+    "/images/james-hooper-avatar.png", // Replace with your image paths
+    "/images/james-hooper-avatar.png",
+    "/images/james-hooper-avatar.png",
+    "/images/james-hooper-avatar.png",
+    "/images/james-hooper-avatar.png",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -38,12 +38,12 @@ export default function About() {
         <img
           src={images[currentImageIndex]}
           alt="Slideshow"
-          className="object-cover w-full h-full rounded-md"
+          className="object-contain w-full h-full rounded-md"
         />
       </div>
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
         <p className="mt-6 text-lg text-gray-400 hover:text-white text-center px-4 max-w-[600px] mx-auto">
-          A professional and passionate designer always ready to tackle new
+          A professional designer who specializes in improving the user experience and building out the user interface for applications. I am always ready to tackle new
           challenges and deliver top-notch results.
         </p>
       </div>
