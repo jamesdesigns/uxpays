@@ -38,7 +38,7 @@ export const Navigation: React.FC = () => {
 							href="/about"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							The Designer
+							Designer Bio
 						</Link>
 						<Link
 							href="/contact"
