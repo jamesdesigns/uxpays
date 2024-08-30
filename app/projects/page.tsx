@@ -137,7 +137,7 @@
 //   );
 // }
 
-'use client'
+
 
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -145,10 +145,21 @@ import { allProjects } from "contentlayer/generated";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import { Eye } from "lucide-react";
+// import { Redis } from "@upstash/redis";
+
+// const redis = Redis.fromEnv();
 
 export const revalidate = 60;
 
 export default function ProjectsPage() {
+  //   // const views = (
+//   //   await redis.mget<number[]>(
+//   //     ...allProjects.map((p) => ["pageviews", "projects", p.slug].join(":")),
+//   //   )
+//   // ).reduce((acc, v, i) => {
+//   //   acc[allProjects[i].slug] = v ?? 0;
+//   //   return acc;
+//   // }, {} as Record<string, number>);
   const [views, setViews] = useState<Record<string, number>>({});
 
   useEffect(() => {
