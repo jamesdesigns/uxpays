@@ -37,17 +37,10 @@ export default function Home() {
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
         <h2 className="text-md text-gray-400 hover:text-white max-w-[600px] mx-auto">
           I'm a UX/UI designer and developer,{" "}
-          {/* <Link
-            target="_blank"
-            href="https://unkey.dev"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            unkey.dev
-          </Link>  */}
           specializing in intelligent design. Isn't it time you invest in your business? 
         </h2>
         <a
-          href="/contact" // Replace with your desired link
+          href="/contact"
           className="inline-block my-10 px-8 py-3 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:outline-none transition duration-300"
         >
           Hire Me
