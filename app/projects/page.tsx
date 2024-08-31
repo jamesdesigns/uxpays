@@ -53,7 +53,7 @@ export default async function ProjectsPage() {
           href="/contact"
           className="inline-block my-10 px-8 py-3 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 focus:outline-none transition duration-300 fancy text-center "
         >
-          Hire Me
+        Hire Me
         </a>
         </div>
         <div className="w-full h-px bg-zinc-800" />
