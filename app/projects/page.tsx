@@ -6,6 +6,7 @@ import { Card } from "../components/card";
 import { Article } from "./article";
 import { Redis } from "@upstash/redis";
 import { Eye } from "lucide-react";
+import '../../styles/ctaButton.css';
 
 const redis = Redis.fromEnv();
 
@@ -48,6 +49,12 @@ export default async function ProjectsPage() {
           <p className="mt-4 text-zinc-400">
           Explore all my projects, each tailored to meet the unique needs of my clients.
           </p>
+          <a
+          href="/contact"
+          className="inline-block my-10 px-8 py-3 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 focus:outline-none transition duration-300 fancy text-center "
+        >
+          Hire Me
+        </a>
         </div>
         <div className="w-full h-px bg-zinc-800" />
 
