@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-          Explore my thoughtfully crafted UX design projects, each tailored to meet the unique needs of my clients.
+          Explore all my User Experience and User Interface design projects, each tailored to meet the unique needs of my clients.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
