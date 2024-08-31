@@ -33,7 +33,6 @@ export default function About() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="text-4xl font-light mb-8 text-gray-400 hover:text-white">James Hooper</h1>
       <div className="w-full max-w-md h-[40vh] overflow-hidden flex items-center justify-center">
         <img
           src={images[currentImageIndex]}
@@ -42,8 +41,9 @@ export default function About() {
         />
       </div>
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
+      <h1 className="text-4xl font-light mb-8 text-gray-400 hover:text-white">James Hooper</h1>
         <p className="mt-6 text-lg text-gray-400 hover:text-white text-center px-4 max-w-[600px] mx-auto">
-          A professional designer who specializes in improving the user experience and building out the user interface for web applications. I am always ready to tackle new
+          I am a professional designer who specializes in improving the user experience and building out beautiful user interfaces for various web applications. I am always ready to tackle new
           challenges and deliver top-notch results.
         </p>
       </div>
