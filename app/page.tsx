@@ -37,7 +37,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
         <h2 className="text-md text-gray-300 hover:text-white max-w-[600px] mx-auto">
-        I specialize in improving the user experience and interface design for large and small business websites. Are you ready to invest in your future? 
+        I specialize in improving the user experience and building beautiful branded websites for small businesses. Are you ready to invest in your future growth? 
         </h2>
         <a
           href="/contact"
