@@ -47,7 +47,7 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-          Explore all my work, each tailored to meet the unique needs of each project. If you like what you see, let's work together and help your business grow.
+          Explore my portfolio, where every project is carefully crafted to meet unique business needs. If you like what you see, let's work together and help your business grow.
           </p>
           <a
           href="/contact"
