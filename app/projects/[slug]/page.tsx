@@ -29,7 +29,8 @@ export default async function PostPage({ params }: Props) {
   const project = allProjects.find((project) => project.slug === slug);
 
   if (!project) {
-   return { notFound: true };
+    notFound();
+    return;
   }
 
   const views =
