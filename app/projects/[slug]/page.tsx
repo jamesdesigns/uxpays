@@ -25,16 +25,11 @@ export async function generateStaticParams(): Promise<Props["params"][]> {
 }
 
 export default async function PostPage({ params }: Props) {
-  const article = await
-  getArticleById(articleId);
-  if (!article) {
-    return { notFound: true };
-  }
   const slug = params?.slug;
   const project = allProjects.find((project) => project.slug === slug);
 
   if (!project) {
-    notFound();
+   return { notFound: true };
   }
 
   const views =
