@@ -43,7 +43,7 @@ export default function About() {
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
       <h1 className="text-3xl font-light mb-8 text-white">James Hooper</h1>
         <p className="mt-6 text-lg text-gray-400 hover:text-white text-center px-4 max-w-[600px] mx-auto">
-        With a focus on strategic design, I help businesses transform their digital presence. My UX/UI expertise drives user engagement, conversion rates, and overall business success by creating experiences that resonate with target audiences. 
+        With a focus on strategic design, I help small businesses transform their digital presence. My UX/UI expertise drives user engagement, conversion rates, and overall business success by creating experiences that resonate with your customers. 
         </p>
       </div>
     </section>

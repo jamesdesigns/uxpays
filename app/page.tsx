@@ -37,7 +37,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
         <h2 className="leading-loose text-md md:text-lg text-gray-300 hover:text-white max-w-[600px] mx-auto">
-           I specialize in crafting exceptional user experiences and creating beautifully branded websites designed to elevate small businesses. Ready to partner with a professional who's committed to driving your business's growth to the next level?        </h2>
+           I specialize in crafting exceptional user experiences and creating beautifully branded websites designed to elevate small businesses.</h2>
         <a
           href="/contact"
           className="inline-block my-10 px-8 py-3 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 focus:outline-none transition duration-300 fancy "

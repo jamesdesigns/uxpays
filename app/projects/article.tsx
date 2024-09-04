@@ -28,7 +28,7 @@ export const Article: React.FC<Props> = ({ project, views }) => {
 						{Intl.NumberFormat("en-US", { notation: "compact" }).format(views)}
 					</span>
 				</div>
-				<h2 className="text-4xl font-bold bg-gradient-to-r from-blue-500 via-pink-500 to-white-900 bg-clip-text text-transparent">
+				<h2 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-pink-500 hover:text-white  bg-clip-text text-transparent">
 						{project.title}
       	</h2>
 				{/* <h2 className="z-20 text-xl font-medium duration-1000 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
