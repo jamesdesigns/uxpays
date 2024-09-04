@@ -41,9 +41,9 @@ export default function About() {
         />
       </div>
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
-      <h1 className="text-4xl font-light mb-8 text-white">James Hooper</h1>
+      <h1 className="text-3xl font-light mb-8 text-white">James Hooper</h1>
         <p className="mt-6 text-lg text-gray-400 hover:text-white text-center px-4 max-w-[600px] mx-auto">
-          Expert UX/UI Web Designer specializing in building beautiful branded websites for small businesses. 
+        With a focus on strategic design, I help businesses transform their digital presence. My UX/UI expertise drives user engagement, conversion rates, and overall business success by creating experiences that resonate with target audiences. 
         </p>
       </div>
     </section>
