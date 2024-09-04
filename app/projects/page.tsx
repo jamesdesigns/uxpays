@@ -21,7 +21,7 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "calculator")!;
+  const featured = allProjects.find((project) => project.slug === "calculator.app")!;
   const top2 = allProjects.find((project) => project.slug === "charts")!;
   const top3 = allProjects.find((project) => project.slug === "dashboard.app")!;
   const sorted = allProjects

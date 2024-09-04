@@ -15,13 +15,6 @@ type Props = {
 };
 
 const redis = Redis.fromEnv();
-const handleDeleteArticle = async (articleId: any) => {
-  await handleDeleteArticle(articleId);
-
-  await redis.del(`article:views:${articleId}`);
-
-  await redis.del('articles:list');
-}
 
 export async function generateStaticParams(): Promise<Props["params"][]> {
   return allProjects
