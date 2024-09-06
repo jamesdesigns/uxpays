@@ -46,8 +46,8 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-4 text-zinc-400">
-            Explore some of my most admired work, where every project is carefully crafted to meet the highest standards one should expect. Let's talk and see how I can help your business grow.
+          <p className="mt-4 text-gray-400">
+            Explore my work, where every project meets the highest standards in the UX design field. Let's talk and see how I can help your online digital presence.
           </p>
           <a
           href="/contact"
