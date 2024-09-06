@@ -27,7 +27,7 @@ export default function About() {
 
   return (
     <>
-    <section className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <section className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden ">
     <Navigation />
     <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
