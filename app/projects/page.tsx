@@ -47,7 +47,7 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-gray-400">
-            Explore my work, where every project meets the highest standards in the UX design field. Let's talk and see how I can help your online digital presence.
+            Explore my work, where every project meets the highest standards within the UX design field. Let's talk and see how I can help your online digital presence.
           </p>
           <a
           href="/contact"
