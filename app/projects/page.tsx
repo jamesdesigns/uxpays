@@ -84,7 +84,7 @@ export default async function ProjectsPage() {
 
                 <h2
                   id="featured-post"
-                  className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
+                  className="mt-4 text-3xl font-bold bg-gradient-to-r from-blue-500 to-pink-500 hover:text-white bg-clip-text text-transparent group-hover:text-white sm:text-4xl font-display"
                 >
                   {featured.title}
                 </h2>
