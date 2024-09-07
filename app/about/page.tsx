@@ -40,7 +40,7 @@ export default function About() {
           className="object-contain w-full h-full rounded-md"
         />
       </div>
-      <div className="pt-10 pb-22 mx-10 md:mx-22 text-left animate-fade-in text-white max-w-[600px] text-lg mx-40">
+      <div className="pt-10 pb-22 mx-10 md:mx-22 text-left animate-fade-in text-white max-w-[600px] text-lg mx-6 md:mx-40">
         <h1 className="text-3xl font-light mb-4  bg-gradient-to-r from-blue-500 to-pink-500  bg-clip-text text-transparent">James Hooper</h1>
         <p className="mt-6 text-gray-400 mx-auto mb-10">
           Hi, I'm James Hooper, a UX/UI web designer specializing in helping small businesses build beautiful, functional, and results-driven websites. With years of experience transforming ideas into seamless digital experiences, I’m dedicated to creating designs that not only look great but also drive business growth.
