@@ -58,9 +58,9 @@ export default function About() {
           <li className='list-disc ml-5 space-y-2 text-white/50  mb-4'><span className='text-white'>Collaborative:</span> I'll work closely with you from concept to launch.</li>
         </ul>
         <h2 className='text-xl mb-4 text-white'>My Promise</h2>
-        <p className='text-white/50 mb-10'>Your website is crucial to your business, and I’m committed to creating a digital experience that turns visitors into customers.</p>
-        <h2 className='text-xl mb-4 text-white'>Let’s Get Started</h2>
-        <p className='text-white/50 '>Ready to grow your business? Let’s talk about how we can work together!</p>
+        <p className='text-white/50 mb-10'>Your website is crucial to your business, and I'm committed to creating a digital experience that turns visitors into customers.</p>
+        <h2 className='text-xl mb-4 text-white'>Let's Get Started</h2>
+        <p className='text-white/50 '>Ready to grow your business? Let's talk about how we can work together!</p>
       </div>
     </section>
     </>
