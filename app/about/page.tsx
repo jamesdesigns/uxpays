@@ -33,6 +33,9 @@ export default function About() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       /> */}
+
+
+
       <div className="w-full max-w-md h-[100vh] overflow-hidden flex items-center justify-center">
         <img
           src={images[currentImageIndex]}

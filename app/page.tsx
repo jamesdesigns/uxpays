@@ -33,10 +33,11 @@ export default function Home() {
       <h1 className="py-3.5 px-0.5 z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-xl md:text-9xl whitespace-nowrap bg-clip-text ">
         UXPays
       </h1>
+      {/* <h1 className="text-6xl bg-gradient-to-br text-pretty text-transparent bg-gradient-stop bg-clip-text from-white via-white via-30% to-white/30 max-w-sm sm:max-w-none xl:max-w-lg font-medium text-[32px] leading-none sm:text-[56px] md:text-[64px] xl:text-[64px] tracking-tighter">UXPays</h1> */}
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-center animate-fade-in">
-        <h2 className="leading-loose text-md md:text-lg text-gray-400 hover:text-white max-w-[600px] mx-auto">
+        <h2 className="leading-loose text-md md:text-lg text-white/50 hover:text-white max-w-[600px] mx-auto font-light">
            I specialize in designing exceptional user experiences and building beautiful websites designed to elevate small businesses.</h2>
         <a
           href="/contact"
