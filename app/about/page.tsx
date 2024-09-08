@@ -46,7 +46,7 @@ export default function About() {
       <div className="pt-10 pb-22 mx-10 md:mx-22 text-left animate-fade-in text-white max-w-[600px] text-lg mx-6 md:mx-40">
         <h1 className="text-3xl font-light mb-4  text-white">James Hooper</h1>
         <p className="mt-6 text-white/50 mx-auto mb-10">
-          Hi, Hi, I'm James, a UX/UI web designer helping small businesses create beautiful, functional websites that drive results. With years of experience, I focus on designs that not only look great but help your business grow.
+          Hi, I'm James, a UX/UI web designer helping small businesses create beautiful, functional websites that drive results. With years of experience, I focus on designs that not only look great but help your business grow.
         </p>
         <h2 className='text-xl mb-4 text-white'>What I Do</h2>
         <p className='text-white/50 mb-10'>I design user-centered websites that connect with your audience and strengthen your brand. My approach blends creativity and strategy to ensure every design decision adds value to your business.</p>
