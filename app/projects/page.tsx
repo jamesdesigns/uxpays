@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-br text-pretty text-transparent bg-gradient-stop bg-clip-text from-white via-white via-30% to-white/30 sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-4 text-gray-400">
+          <p className="mt-4 text-lg text-white/50">
           Discover how my work consistently meets the highest standards and transforms businesses. If you're ready to elevate your brand with expert design, let’s talk today and start your project!
           </p>
           <a
@@ -84,7 +84,7 @@ export default async function ProjectsPage() {
 
                 <h2
                   id="featured-post"
-                  className="mt-4 text-3xl font-bold bg-gradient-to-r from-blue-500 to-pink-500 hover:text-white bg-clip-text text-transparent group-hover:text-white sm:text-4xl font-display"
+                  className="mt-4 text-3xl font-bold bg-gradient-to-br text-pretty text-transparent bg-gradient-stop bg-clip-text from-white via-white via-30% to-white/30 group-hover:text-white sm:text-4xl font-display"
                 >
                   {featured.title}
                 </h2>
