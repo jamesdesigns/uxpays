@@ -49,7 +49,7 @@ export default function About() {
           Hi, I'm James, a UX/UI web designer helping small businesses create beautiful, functional websites that drive results. With years of experience, I focus on designs that not only look great but help your business grow.
         </p>
         <h2 className='text-xl mb-4 text-white'>What I Do</h2>
-        <p className='text-white/50 mb-10'>I design user-centered websites that connect with your audience and strengthen your brand. My approach blends creativity and strategy to ensure every design decision adds value to your business.</p>
+        <p className='text-white/50 mb-10'>I design user-centered websites that connect with your audience and strengthen your brand. My approach blends creativity and strategy to ensure every design decision adds value to your online business.</p>
         <h2 className='text-xl mb-4 text-white'>Why Work With Me?</h2>
         <ul className='mb-10'>
           <li className='list-disc ml-5 space-y-2 text-white/50 mb-4'><span className='text-white'>Custom Designs:</span> Every website is tailored to your goals and audience.</li>
