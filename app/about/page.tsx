@@ -54,7 +54,7 @@ export default function About() {
         <ul className='mb-10'>
           <li className='list-disc ml-5 space-y-2 text-white/50 mb-4'><span className='text-white'>Custom Designs:</span> Every website is tailored to your goals and audience.</li>
           <li className='list-disc ml-5 space-y-2 text-white/50 mb-4'><span className='text-white'>User-Focused:</span> I prioritize smooth, intuitive experiences.</li>
-          <li className='list-disc ml-5 space-y-2 text-white/50 mb-4'><span className='text-white'>Results-Driven:</span> I aim to boost engagement, sales, and visibility</li>
+          <li className='list-disc ml-5 space-y-2 text-white/50 mb-4'><span className='text-white'>Results-Driven:</span> I aim to boost engagement, sales, and visibility.</li>
           <li className='list-disc ml-5 space-y-2 text-white/50  mb-4'><span className='text-white'>Collaborative:</span> I'll work closely with you from concept to launch.</li>
         </ul>
         <h2 className='text-xl mb-4 text-white'>My Promise</h2>
