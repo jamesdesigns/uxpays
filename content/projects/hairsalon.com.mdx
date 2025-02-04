@@ -1,172 +1,77 @@
 ---
-title: "Hair Salon"
-description: Zodbird is an e2e typed tinybird.co client library for typescript, leveraging zod for type safety and transformations
+title: "Custom Hair Salon Website: Designed for Maximum Client Engagement"
+description: Elevate Your Salon’s Online Presence with a High-Converting Website
 repository: chronark/zod-bird
 date: "2024-05-21"
 published: true
-  
 ---
 
-- typesafe
-- handles building the url params for you
-- easy transformation of resulting data
-- built in cache directives for nextjs
-- built in retry logic for ratelimited requests
+# The Ultimate Hair Salon Website: Designed for Maximum Client Engagement
 
+## Elevate Your Salon’s Online Presence with a High-Converting Website
 
-```ts
-import { Tinybird } from "@chronark/zod-bird";
-import { z } from "zod";
+In today’s competitive beauty industry, having a strong online presence is no longer optional—it’s essential. That’s why I’ve crafted a **cutting-edge Hair Salon website** using **best UX/UI practices** and **high-quality custom design** to help salons attract and retain more clients. If you own a hair salon and want to grow your clientele, this website is built to convert visitors into loyal customers.
 
-const tb = new Tinybird({ token: "token" });
+### **Why Your Hair Salon Needs a High-Performing Website**
 
-export const getEvents = tb.buildPipe({
-  pipe: "get_events__v1",
-  parameters: z.object({
-    tenantId: z.string(),
-  }),
-  data: z.object({
-    event: z.string(),
-    time: z.number().transform((t) => new Date(t)),
-  }),
-});
+With more clients searching for salons online, a poorly designed website can mean lost bookings. A well-structured, aesthetically pleasing website ensures that potential customers **trust your brand, find the services they need, and book appointments effortlessly**.
 
+Here’s what makes this salon website stand out:
 
-const res = await getEvents({ tenantId: "chronark" })
+- **Flawless User Experience (UX):** Seamless navigation for easy browsing.
+- **Modern, Custom UI Design:** Aesthetic appeal tailored to your salon’s brand.
+- **Mobile-Friendly & Responsive:** Optimized for all devices, from smartphones to desktops.
+- **SEO-Optimized Content:** Ensuring your salon ranks higher on search engines.
+- **Fast Loading Speed:** Performance-enhanced for a better user experience.
+- **Integrated Online Booking System:** Hassle-free appointment scheduling.
 
-// res.data = {event: string, time: Date}[]
-```
+---
 
-## Install
+## **Key UX/UI Features That Enhance Client Experience**
 
-```
-npm i @chronark/zod-bird
-```
+### **1. Visually Stunning, Brand-Consistent Design**
+Your salon’s website is an extension of your brand. I used **a high-end, custom UI design** that reflects the luxury, professionalism, and warmth of your salon. This ensures that when visitors land on your site, they immediately connect with your brand’s personality.
 
+### **2. Intuitive Navigation for Effortless Browsing**
+A complicated website frustrates users and drives them away. I implemented a **clear, simple navigation structure** so that visitors can quickly find services, pricing, and booking options without confusion.
 
-## Ingesting Data
+### **3. Mobile-First Approach for Seamless Accessibility**
+Since over **60% of web traffic** comes from mobile users, this salon website is built using a **fully responsive, mobile-friendly design**. Whether clients visit from a phone, tablet, or desktop, the experience remains smooth and intuitive.
 
-```ts
-// lib/tinybird.ts
-import { Tinybird } from "./client";
-import { z } from "zod";
+### **4. Lightning-Fast Load Times to Reduce Bounce Rates**
+Speed matters! A slow-loading website results in **lost clients**. I optimized images, minimized code, and used advanced performance techniques to ensure **near-instant loading times**.
 
-const tb = new Tinybird({ token: process.env.TINYBIRD_TOKEN! });
+### **5. SEO Optimization for Increased Visibility**
+What’s the point of a beautiful website if no one can find it? This site is designed with **SEO best practices**, including:
+- Optimized **meta titles & descriptions** for Google rankings.
+- Fast page speed (a key Google ranking factor).
+- Clean, structured content for better indexing.
+- SEO-friendly URLs and image alt texts.
 
-export const publishEvent = tb.buildIngestEndpoint({
-  datasource: "events__v1",
-  event: z.object({
-    id: z.string(),
-    tenantId: z.string(),
-    channelId: z.string(),
-    time: z.number().int(),
-    event: z.string(),
-    content: z.string().optional().default(""),
-    metadata: z.string().optional().default(""),
-  }),
-});
-```
+---
 
-```ts
-// somewhere.ts
-import { publishEvent } from "./lib/tinybird";
+## **How This Website Converts Visitors into Clients**
 
-await publishEvent({
-  id: "1",
-  tenantId: "1",
-  channelId: "1",
-  time: Date.now(),
-  event: "test",
-  content: "test",
-  metadata: JSON.stringify({ test: "test" }),
-});
-```
+### **Clear Call-to-Action (CTA) Buttons**
+Every page has strategically placed **"Book Now" and "Contact Us" buttons** to encourage quick conversions.
 
+### **Online Booking Integration**
+Clients can schedule appointments online in just a few clicks—boosting bookings and reducing admin work.
 
+### **Trust Elements (Testimonials, Portfolio, Social Proof)**
+Displaying **real client reviews**, before-and-after photos, and social media integrations enhances credibility and builds trust.
 
-## Querying Endpoints
+### **Strategic Content Layout**
+Designed for **easy scanning**, the content follows a structured format with **concise, compelling copy** to keep visitors engaged.
 
-```ts
-// lib/tinybird.ts
-import { Tinybird } from "./client";
-import { z } from "zod";
+---
 
-const tb = new Tinybird({ token: process.env.TINYBIRD_TOKEN! });
+## **Grow Your Hair Salon with a Website That Works**
 
-export const getChannelActivity = tb.buildPipe({
-  pipe: "get_channel_activity__v1",
-  parameters: z.object({
-    tenantId: z.string(),
-    channelId: z.string().optional(),
-    start: z.number(),
-    end: z.number().optional(),
-    granularity: z.enum(["1m", "1h", "1d", "1w", "1M"]),
-  }),
-  data: z.object({
-    time: z.string().transform((t) => new Date(t).getTime()),
-    count: z
-      .number()
-      .nullable()
-      .optional()
-      .transform((v) => (typeof v === "number" ? v : 0)),
-  }),
-});
-```
+Your salon deserves a **high-converting website** that not only looks stunning but also **drives real business growth**. With an optimized, user-friendly, and SEO-driven website, you’ll attract more potential clients and turn them into loyal customers.
 
-```ts
-// somewhere.ts
-import { getChannelActivity } from "./lib/tinybird";
+### **Ready to Elevate Your Salon’s Online Presence?**
+If you’re looking to transform your salon’s online experience with a custom-designed, high-performing website, let’s connect! Get in touch today and let’s bring your vision to life.
 
+**[Contact Me for a Custom Salon Website](#)**
 
-const res = await getChannelActivity({
-   tenantId: "1",
-   channelId: "1",
-   start: 123,
-   end: 1234,
-   granularity: "1h"
-})
-
-```
-`res` is the response from the tinybird endpoint, but now fully typed and the data has been parsed according to the schema defined in `data`.
-
-## Advanced
-
-### Caching
-
-You can add cache directives to each pipe.
-
-
-#### Disable caching (useful in Next.js where everything is cached by default)
-
-```ts
-tb.buildPipe({
-  pipe: "some_pipe__v1",
-  parameters: z.object({
-   hello: z.string()
-  }),
-  data: z.object({
-    response: z.string()
-  }),
-   opts: {
-      cache: "no-store" // <-------- Add this
-   };
-});
-
-```
-
-#### Cache for 15 minutes
-
-```ts
-
-tb.buildPipe({
-  pipe: "some_pipe__v1",
-  parameters: z.object({
-   hello: z.string()
-  }),
-  data: z.object({
-    response: z.string()
-  }),
-   opts: {
-      revalidate: 900 ;// <-------- Add this
-    };
-});
