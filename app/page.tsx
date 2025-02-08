@@ -4,8 +4,8 @@ import Particles from "./components/particles";
 import '../styles/ctaButton.css';
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
-  { name: "The Designer", href: "/about" },
+  { name: "My Projects", href: "/projects" },
+  { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
 

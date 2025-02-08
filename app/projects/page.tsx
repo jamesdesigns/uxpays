@@ -47,7 +47,7 @@ export default async function ProjectsPage() {
             View my Projects
           </h2>
           <p className="mt-4 text-lg text-white/50">
-          Discover how my work consistently meets the highest standards and transforms businesses. If you're ready to elevate your brand with expert design, let’s talk today and start your project!
+          Discover how my work consistently meets the highest standards and transforms businesses. If you're ready to elevate your brand with expert design, let’s talk today and work together!
           </p>
           <a
           href="/contact"
